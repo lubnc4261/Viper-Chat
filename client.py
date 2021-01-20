@@ -40,7 +40,7 @@ def connect_to_server(count):
 
     if connected:
         print("[*] Connected to the Server.")
-        print("[*] Creator : (github) lubnc4261 (lucas EF)")
+        print("[*] Creator : (github) lubnc4261")
         input('[*] Press enter to continue...')
         RECEIVE_THREAD = threading.Thread(target=receive)
         RECEIVE_THREAD.start()
